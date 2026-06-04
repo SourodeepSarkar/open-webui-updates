@@ -1,16 +1,75 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Adiutor Updates</title>
-</head>
-<body>
-    <h1>Adiutor Sparkle Updates</h1>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<channel>
+<title>OpenWebUI Update</title>
+<link>
+http://sparkle-project.org/files/sparkletestcast.xml
+</link>
+<description>Most recent changes with links to updates.</description>
+<language>en</language>
+<item>
+<title>Version 1.0.0</title>
+<link>https://openwebui.com/</link>
+<sparkle:version>1.0.0</sparkle:version>
+<description>
+<![CDATA[
+<h2>What's New in v1.0.0</h2>
 
-    <p>
-        Appcast:
-        <a href="appcast.xml">
-            appcast.xml
-        </a>
-    </p>
-</body>
-</html>
+<h3>✨ Open WebUI, Simplified</h3>
+<ul>
+  <li>
+    <strong>No-code setup experience:</strong>
+    Install, launch, and access Open WebUI on macOS without manually configuring Python environments, virtual environments, or local server commands.
+  </li>
+
+  <li>
+    <strong>Native macOS launcher:</strong>
+    Open WebUI can now be started and accessed through a dedicated macOS application that automatically monitors the local server and opens the interface when ready.
+  </li>
+
+  <li>
+    <strong>Streamlined local workflow:</strong>
+    Designed to reduce setup friction and make self-hosted AI accessible to users who prefer a desktop application experience over manual Terminal-based workflows.
+  </li>
+</ul>
+
+<hr>
+
+<h3>‼️ Important Notice</h3>
+<ul>
+  <li>
+    <strong>This application is not Open WebUI itself:</strong>
+    It is a macOS launcher and frontend host for a standard Open WebUI installation. No modifications are made to the Open WebUI product, source code, backend, or functionality.
+  </li>
+
+  <li>
+    <strong>All Open WebUI features remain provided by the original project:</strong>
+    Credit for the platform, web interface, backend services, and ongoing development belongs entirely to the Open WebUI team and contributors.
+  </li>
+</ul>
+
+<hr>
+
+<h3>🔧 Reliability & Stability</h3>
+<ul>
+  <li>
+    Includes startup monitoring, installation workflow improvements, UI refinements, and stability enhancements for a smoother and more dependable experience.
+  </li>
+</ul>
+
+<hr>
+
+<h3>Feedback</h3>
+<p>Feedback, bug reports, and suggestions are welcome through GitHub Issues.</p>
+
+<hr>
+
+<p>Thank you for using Open WebUI for macOS.</p>
+]]>
+</description>
+<pubDate>Sat, 04 Jun 2026 10:37:00 +0530</pubDate>
+<enclosure url="https://github.com/SourodeepSarkar/open-webui-updates/releases/download/v1.0.0/Open.WebUI.v1.0.0.zip" length="2719498" type="application/octet-stream" sparkle:edSignature="CKyO3yUK8jFSQWKyeGSb0BDpCJlLnpoWaOxkZ3mM5agIPIhUSltFVE/94fk7k5QXUTrU8gtPb8R7jiD8mLlEDA=="
+/>
+</item>
+</channel>
+</rss>
+
